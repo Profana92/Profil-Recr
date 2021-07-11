@@ -132,7 +132,6 @@ async function getCountries()
   countriesEl.innerHTML = 
   `<div class="countriesEl">
      Number of countries on earth: ${ilosckrajow}</br>
-     Number of countries on earth: ${array.length}</br>
      5 Most common languages are: ${findMostFrequent(str, num)}</br>          
      5 Most common Currencies are: ${findMostFrequentCurrency(str2, num2)}</br>
      Average number of neigbours: ${countriescount/array.length}</br>
