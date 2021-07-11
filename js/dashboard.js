@@ -35,7 +35,7 @@ async function getCountries()
     i=i+1;
     return subarray;
   });
-
+  let ilosckrajow = i - 1;
   // utworzenie subarraya z samymi walutami i wpisanie ich do nowej tablicy nazwanej subarraycurrencies
   let subarraycurrencies = new Array();
   i = 0;
@@ -130,8 +130,8 @@ async function getCountries()
   /* Wypisanie w oknie przeglądarki wraz z dzieleniem przez array.lenght (równie dobrze zadziała liczba 250, ale w przypadku zmian w arrayu jak np. usuniecie kraju
   zniszczy wynik obliczeń, bardziej sensownym jest więc użycie array.lenght)*/
   countriesEl.innerHTML = 
-  `<div class="countriesEl"
-     Number of countries on earth: ${subarray.length}</br>
+  `<div class="countriesEl">
+     Number of countries on earth: ${ilosckrajow}</br>
      Number of countries on earth: ${array.length}</br>
      5 Most common languages are: ${findMostFrequent(str, num)}</br>          
      5 Most common Currencies are: ${findMostFrequentCurrency(str2, num2)}</br>
