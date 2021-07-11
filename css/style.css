@@ -1,0 +1,176 @@
+/* Ustawienia ogólne*/
+
+html
+{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,101,133,1) 0%, rgba(255,255,255,1) 100%); 
+}
+
+body
+{
+  margin: 0px;
+}
+
+h2
+{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+/*Ustawienia sekcji header*/
+.header
+{
+  background-color: rgba(16,29,164,0.5); 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 100px;
+}
+
+.globe 
+{
+  max-width: 200px;
+  padding: 20px 0 20px 0;
+}
+
+.container-search
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.search 
+{ 
+  font-family: 'Dancing Script', cursive;
+  border: none;
+  cursor: pointer;
+  font-size: 2em;
+  text-align: center;
+  color: #EEFBFB;
+  padding: 16px 16px;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+.search:hover
+{ 
+  color: orange;
+}
+.menu-btn 
+{   
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-size: 3em;
+  margin: 0 0 20px 0;
+  border: none;
+  background-color: inherit;
+  cursor: inherit;
+  color: #EEFBFB;
+}
+
+.menu-btn:hover
+{
+  color: orange;
+}
+
+.menu-home-icon 
+{
+  margin: 0 10px 0 0;
+}
+
+.menu-tv-icon
+{
+  margin: 0 10px 0 0;
+}
+
+
+
+
+
+/* Sekcja Body*/
+table 
+{ border-collapse: collapse;
+  font-size: 1.5em;
+}
+
+tr
+{ 
+  padding: 0;
+  background:rgba(255,255,255, 0.4); 
+}
+
+td
+{ 
+  padding: 0;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th
+{
+  border: 1px solid black;
+  text-align: center;
+  background: linear-gradient(#777, #444);
+
+}
+
+th:hover
+{
+  color: orange;
+}
+.table-row img 
+{
+  max-width: 125px;
+      vertical-align: middle;
+}
+
+.tableclass
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-collapse: separate;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.container-table
+{
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto auto auto;
+}
+
+.countriesEl
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #ebebeb;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  background: rgba(255,255,255, 0.4);
+  padding: 20px;
+  font-size: 2em;
+  border: 2px solid #076585;
+  line-height: 1.8;
+}
+.body-center
+{
+  justify-content: center;
+}
