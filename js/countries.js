@@ -1,6 +1,5 @@
 //Deklaracja elementow po Id
 const countriesElement = document.getElementById('countries')
-const h2 = document.getElementById('countries')
 const searchEl = document.getElementById('search')
 getCountries();
 
