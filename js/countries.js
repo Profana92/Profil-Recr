@@ -130,6 +130,7 @@ function searchminmax()
   if (max2 == "")
   {
     max2 =   13774221680;
+  }
   if (min2 == "")
   {
     min2 = -1;
